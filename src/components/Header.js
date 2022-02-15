@@ -45,7 +45,6 @@ export default function Header(props) {
   };
 
   const setUser = (user) => {
-    console.log(user);
     dispatch(
       setUserLoginDetails({
         name: user.displayName,
